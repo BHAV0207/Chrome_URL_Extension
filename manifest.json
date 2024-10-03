@@ -1,0 +1,46 @@
+{
+  "name": "Leads Tracker",
+  "short_name": "Leads",
+  "description": "A web application to save and tag leads or links",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5f9341",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Save Input",
+      "short_name": "Save Input",
+      "description": "Save the inputted link",
+      "url": "/index.html#save-input",
+      "icons": [{ "src": "/images/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Save Tab",
+      "short_name": "Save Tab",
+      "description": "Save the current tab link",
+      "url": "/index.html#save-tab",
+      "icons": [{ "src": "/images/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Delete All",
+      "short_name": "Delete All",
+      "description": "Delete all saved leads",
+      "url": "/index.html#delete-all",
+      "icons": [{ "src": "/images/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
